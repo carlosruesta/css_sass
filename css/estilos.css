@@ -558,7 +558,7 @@ header .container {
 
 .blog::after {
   content: "";
-  background: url(../../imagens/fundo.png);
+  background: url(../imagens/fundo.png);
   background-size: 25px 25px;
   opacity: .15;
   top: 0;
