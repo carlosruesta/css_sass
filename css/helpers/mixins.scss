@@ -15,3 +15,12 @@
   overflow: hidden;
   background-repeat: no-repeat;
 }
+
+.erro {
+  background: #f00;
+}
+
+.alerta {
+  border-radius: 3px;
+  @extend .erro
+}

@@ -5,10 +5,26 @@ header {
   height: 90px;
   width: 100%;
   position: absolute;
-}
 
-header .container {
-  position: relative;
+  .container {
+    position: relative;
+  }
+
+  @media #{$mq-mobile} {
+    height: auto;
+    .container{
+      position: static;
+    }
+    h1 {
+      max-width: 50%;
+      margin: 0 auto;
+      img {
+        max-width: 100%;
+        margin: .5em auto;
+        display: block;
+      }
+    }
+  }
 }
 
 .menu-principal {
@@ -33,6 +49,18 @@ header .container {
 
     &:hover {
       text-decoration: underline;
+    }
+  }
+
+  @media #{$mq-mobile} {
+    position: static;
+    display: block;
+    text-align: center;
+    width: auto;
+
+    li {
+      margin: .4em;
+      width: auto;
     }
   }
 }
