@@ -75,7 +75,7 @@ footer a {
   display: block;
   width: 55px;
   height: 55px;
-  @include oculta-texto-imagem;
+  @extend %oculta-texto-imagem;
   margin-left: 1em;
 }
 
