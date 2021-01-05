@@ -9,10 +9,10 @@
 
 .plano {
   background: white;
-  width: 18em;
+  width: multiplica-pela-fonte(18);
   display: inline-block;
   margin: 1em 0 0 1.4em;
-  padding-bottom: 2em;
+  padding-bottom: multiplica-pela-fonte(2);;
 }
 
 .plano:hover {

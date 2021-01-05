@@ -3,5 +3,9 @@ $cor-padrao: darken(#c24e4b, 0);
 $cor-auxiliar: lighten(#1e2c35, 0);
 $cor-branca: #fff;
 $raio: 0.3em;
-
+$tamanho-da-fonte-padrao: 16px;
 $mq-mobile: "(max-width: 980px)";
+
+@function multiplica-pela-fonte ($multiplicador){
+  @return $multiplicador * $tamanho-da-fonte-padrao;
+}
